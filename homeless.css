@@ -28,11 +28,14 @@ body {
   width: 100%;
   height: 400px;
   display: flex;
+  align-content: center;
 }
 .picsContainer{
   width: 100%;
-  height: 400px;
+  height: 800px;
   display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
 .homebox {
   margin: auto;
@@ -40,6 +43,10 @@ body {
   height: 200px;
   border: 2px solid red;
   text-align: center;
+}
+.homelessPics{
+  width: 200px;
+  height: 200px;
 }
 .footer{
   position: relative;

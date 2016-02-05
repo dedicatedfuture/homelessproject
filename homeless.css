@@ -1,0 +1,49 @@
+body {
+  background-color: lightyellow;
+  margin: 0 5%;
+}
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100px;
+  background-color: green;
+
+}
+.filler {
+  height: 150px;
+}
+.header li {
+  list-style: none;
+  display: inline;
+  float: left;
+  margin-left: 10px;
+}
+.titlecontainer{
+  text-align: center;
+  width: 100%;
+  height: 400px;
+}
+.boxesContainer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.picsContainer{
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.homebox {
+  margin: auto;
+  width: 20%;
+  height: 200px;
+  border: 2px solid red;
+  text-align: center;
+}
+.footer{
+  position: relative;
+  bottom: 0;
+  border-top: 3px solid black;
+
+}

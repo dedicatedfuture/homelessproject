@@ -47,3 +47,18 @@ body {
   border-top: 3px solid black;
 
 }
+
+.about {
+  background: lightgreen;
+  color: white;
+  text-align: left;
+  margin-top: 100px;
+  padding: 25px;
+}
+
+.news {
+  background: lightgreen;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
